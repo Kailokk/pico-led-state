@@ -59,7 +59,7 @@
             sccache
           ];
 
-          RUSTC_WRAPPER = "${pkgs.sccache}/bin/sccache"
+          RUSTC_WRAPPER = "${pkgs.sccache}/bin/sccache";
         };
       }
     );
